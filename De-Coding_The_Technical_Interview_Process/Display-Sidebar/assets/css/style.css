@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 5px;
+}
+nav,
+section {
+  padding: 20px;
+}
+#sidebar {
+  background-color: black;
+  color: white;
+  width: 200px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-end;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: -240px;
+  transition: 0.7s;
+}
+.hidden {
+  display: none;
+}
